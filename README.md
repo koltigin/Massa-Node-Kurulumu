@@ -1,8 +1,7 @@
-# Massa: The Decentralized and Scaled Blockchain
+# Massa: Merkeziyetsiz ve Ölçeklendirilmiş Blok Zinciri
 
-Massa is a truly decentralized blockchain controlled by thousands of
-people. With the breakthrough multithreaded technology, we're set for
-mass adoption.
+Massa, binlerce insan tarafından kontrol edilen gerçekten merkezi olmayan bir blok zinciridir. 
+Çığır açan çok iş parçacıklı teknolojiyle toplu olarak benimsenmeye hazırız.
 
 [![CI](https://github.com/massalabs/massa/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/massalabs/massa/actions/workflows/ci.yml?query=branch%3Amain)
 [![Bors enabled](https://bors.tech/images/badge_small.svg)](https://app.bors.tech/repositories/39543)
@@ -11,63 +10,59 @@ mass adoption.
 [![OpenRPC Playground](https://img.shields.io/static/v1?label=openrpc-playground&message=massa&color=blue)](https://playground.open-rpc.org/?schemaUrl=https://raw.githubusercontent.com/massalabs/massa/main/docs/technical-doc/openrpc.json)
 [![Open in Gitpod](https://shields.io/badge/Gitpod-contribute-brightgreen?logo=gitpod&style=flat)](https://gitpod.io/#https://github.com/massalabs/massa)
 
-## Introduction
+## Giriş
 
-[Massa](https://massa.net) is a new blockchain reaching a high
-transaction throughput in a decentralized network. Our research is
-published in this [technical paper](https://arxiv.org/pdf/1803.09029).
-It shows that throughput of 10'000 transactions per second is reached
-even in a fully decentralized network with thousands of nodes.
+[Massa](https://massa.net), merkezi olmayan bir ağda yüksek işlem hacmine ulaşan yeni bir blok zinciridir. 
+Araştırmamız bu [teknik belgede](https://arxiv.org/pdf/1803.09029) yayınlanmıştır.
+Binlerce düğüme sahip tamamen merkezi olmayan bir ağda bile saniyede 10.000 işlem hacmine ulaşıldığını gösteriyor.
 
-An easy-to-read blog post introduction with videos is written
-[here](https://massa.net/blog/introduction/).
+Videolarla birlikte okunması kolay bir blog yazısı tanıtımı (https://massa.net/blog/introduction/) yazılmıştır
 
 We are now releasing the **Massa testnet** in this Gitlab repository,
 with its explorer available at <https://test.massa.net>.
 
-## Testnet Incentives
+Şimdi <https://test.massa.net> adresinde bulunan gezgin ile 
+bu Gitlab deposunda **Massa test ağını** yayınlıyoruz.
 
-As decentralization is our core value, we would like to help you start
-and run a Massa node. Running a node during the testnet phase also helps
-us find bugs and improve usability, so it will be rewarded with real
-Massa on mainnet launch.
+## Testnet Teşvikleri
 
-The mechanics of those rewards are described in the [Testnet rules](https://massa.readthedocs.io/en/latest/testnet/rewards.html).
+Merkeziyetçilikten uzaklaşma temel değerimiz olduğundan, bir Massa düğümü başlatmanıza ve çalıştırmanıza yardımcı olmak istiyoruz.
+Test ağı aşamasında bir düğüm çalıştırmak ayrıca hataları bulmamıza ve kullanılabilirliği geliştirmemize yardımcı olur, 
+bu nedenle ana ağ açılışında gerçek Massa ile ödüllendirilecektir.
 
-## Testnet Discussions
+Bu ödüllerin mekanizması [testnet kurallarında](https://massa.readthedocs.io/en/latest/testnet/rewards.html) açıklanmıştır.
 
-Please come to our [Discord](https://discord.com/invite/massa) for
-testnet discussions, in the testnet channel.
+## Testnet Tartışmaları
 
-For project announcements, we mainly use
-[Telegram](https://t.me/massanetwork), and we also have a [Twitter](https://twitter.com/MassaLabs) account.
+Testnet tartışmaları için lütfen [Discord](https://discord.com/invite/massa) sayfamızda testnet kanalına gelin.
 
-## Tutorials to join the testnet
+Proje duyuruları için ağırlıklı olarak [Telegram](https://t.me/massanetwork) 
+ve ayrıca bir [Twitter](https://twitter.com/MassaLabs) hesabımız var.
 
--   [Installing a node](https://massa.readthedocs.io/en/latest/testnet/install.html)
--   [Running a node](https://massa.readthedocs.io/en/latest/testnet/running.html)
--   [Creating a wallet](https://massa.readthedocs.io/en/latest/testnet/wallet.html)
--   [Staking](https://massa.readthedocs.io/en/latest/testnet/staking.html)
--   [Routability tutorial](https://massa.readthedocs.io/en/latest/testnet/routability.html) (Optional)
--   [Testnet rewards program](https://massa.readthedocs.io/en/latest/testnet/rewards.html) (Optional)
+## Testnet'e katılmak için öğreticiler
 
-## More tutorials
+-   [Node yükleme](https://massa.readthedocs.io/en/latest/testnet/install.html)
+-   [Node çalıştırma](https://massa.readthedocs.io/en/latest/testnet/running.html)
+-   [Cüzdan oluşturma](https://massa.readthedocs.io/en/latest/testnet/wallet.html)
+-   [Stake etme](https://massa.readthedocs.io/en/latest/testnet/staking.html)
+-   [Yönlendirilebilirlik eğitimi](https://massa.readthedocs.io/en/latest/testnet/routability.html) (İsteğe bağlı)
+-   [Testnet ödül programı](https://massa.readthedocs.io/en/latest/testnet/rewards.html) (İsteğe bağlı)
 
--   [Updating the node](https://massa.readthedocs.io/en/latest/testnet/update.html)
--   [Tutorials and resources from the community](https://massa.readthedocs.io/en/latest/testnet/community-resources.html)
+## Diğer öğreticiler
 
-## [FAQ](https://massa.readthedocs.io/en/latest/testnet/faq.html) and Troubleshooting
+-   [Node güncelleme](https://massa.readthedocs.io/en/latest/testnet/update.html)
+-   [Topluluktan öğreticiler ve kaynaklar](https://massa.readthedocs.io/en/latest/testnet/community-resources.html)
 
-You'll find answers to common issues and questions regarding the Massa
-protocol in the [FAQ](https://massa.readthedocs.io/en/latest/testnet/faq.html).
+## [SSS](https://massa.readthedocs.io/en/latest/testnet/faq.html) ve Sorun Giderme
 
-Don't hesitate to ask questions in the
-[Discord](https://discord.com/invite/massa) testnet channel.
+[SSS](https://massa.readthedocs.io/en/latest/testnet/faq.html) bölümünde Massa protokolüyle ilgili sık karşılaşılan sorunlara ve soruların yanıtlarını bulacaksınız.
 
-## Technical documentation
+[Discord](https://discord.com/invite/massa) testnet kanalında soru sormaktan çekinmeyin.
+
+## Teknik belgeler
 
 -   [API](https://massa.readthedocs.io/en/latest/technical-doc/api.html)
--   [Concurrency](https://massa.readthedocs.io/en/latest/technical-doc/concurrency.html)
--   [Smart contract VM block feed process](https://massa.readthedocs.io/en/latest/technical-doc/vm-block-feed.html)
--   [VM ledger interaction](https://massa.readthedocs.io/en/latest/technical-doc/vm-ledger-interaction.html)
--   [Dummy network generation](https://massa.readthedocs.io/en/latest/technical-doc/dummy-network-generation.html)
+-   [Eş Zamanlılık](https://massa.readthedocs.io/en/latest/technical-doc/concurrency.html)
+-   [Akıllı sözleşme VM blok besleme süreci](https://massa.readthedocs.io/en/latest/technical-doc/vm-block-feed.html)
+-   [Sanal makine defteri etkileşimi](https://massa.readthedocs.io/en/latest/technical-doc/vm-ledger-interaction.html)
+-   [Sahte ağ oluşturma](https://massa.readthedocs.io/en/latest/technical-doc/dummy-network-generation.html)
